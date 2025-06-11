@@ -1,0 +1,117 @@
+.page-product {
+    min-width: 1200px;
+    height: 100%;
+    padding-top: 65px;
+
+    .sections-wrapper {
+        min-width: 1200px;
+        position: relative;
+        min-height: calc(100vh - 400px);
+
+        .homepage-products-banner{
+            margin-top: 16px;
+        }
+        .products-banner-text > *{
+            opacity: 1;
+        }
+
+        .vertical-wrapper {
+            padding-top: 64px;
+            padding-bottom: 48px;
+            width: 1200px;
+
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;
+
+            h1 {
+                font-size: 48px;
+                line-height: 52px;
+                letter-spacing: -.03em;
+                margin-top: 8px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: -.03em;
+                margin-top: 24px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align-last: center
+            }
+        }
+
+        .atom-component {
+            min-height: 640px;
+            padding-bottom: 0px;
+            outline: none;
+            background-color: white;
+            padding-top: 0px;
+            padding-left: 16px;
+            padding-right: 16px;
+
+            .component {
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-image: url("../images/product1-Photoroom.png");
+
+                min-height: 640px;
+
+                .atom-design {
+                    position: relative;
+                    width: 100%;
+                    min-width: 1200px;
+                    box-sizing: border-box;
+                    overflow: hidden;
+
+                    .vertical-wrapper {
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        gap: 24px;
+
+
+                        .wrapper-h2 {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 16px;
+                            color: white;
+                            max-width: 693px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+
+                        .wrapper-h21 {
+                            animation-delay: 0.5s;
+                            font-size: 40px;
+                            line-height: 24px;
+                            font-weight: 500;
+                            color: #ffffff;
+                            text-align: center;
+                        }
+
+                        .wrapper-h22 {
+                            animation-delay: 0.1s;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: rgba(255, 255, 255, 0.65);
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

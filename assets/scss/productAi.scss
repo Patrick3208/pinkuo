@@ -1,0 +1,99 @@
+.page-product-ai {
+    position: relative;
+    background-color: #f7f9fa;
+    margin-bottom: 36px;
+
+    .tmpl-banner {
+        background-image: url("../images/u302-Photoroom.png");
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #494b4d;
+        background-position: 0 60px;
+
+        .grid-container {
+            width: 1200px;
+            margin: 0 auto;
+
+            .content-p {
+                color: #fff;
+            }
+        }
+
+        .text {
+            height: 400px;
+            display: flex;
+            -moz-flex-direction: column;
+            flex-direction: column;
+            -moz-justify-content: center;
+            justify-content: center;
+            color: #fff;
+            padding: 64px;
+        }
+    }
+
+    .section-content {
+        .vertical-wrapper {
+            padding-top: 64px;
+            padding-bottom: 48px;
+            width: 1200px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;
+
+            h1 {
+                font-size: 48px;
+                line-height: 52px;
+                letter-spacing: -0.03em;
+                margin-top: 8px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: -0.03em;
+                margin-top: 24px;
+                margin-left: auto;
+                margin-right: auto;
+                -moz-text-align-last: center;
+                text-align-last: center;
+            }
+        }
+    }
+
+    .product-box {
+        // background-image: url("/_nuxt/assets/images/u193-Photoroom.png");
+        height: 466px;
+        width: 1200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+        position: relative;
+        .product-box-item {
+            position: absolute;
+            max-width: 500px;
+             text-align: left;
+
+            h3 {
+                margin: 0 0 15px; 
+                font-size: 2rem; 
+                font-weight: 700; 
+                color: #fafafa; 
+                line-height: 1.2; 
+            }
+
+            p {
+                margin: 0; 
+                font-size: 1.1rem; 
+                color: #fafafa; 
+                line-height: 1.6; 
+            }
+        }
+    }
+}

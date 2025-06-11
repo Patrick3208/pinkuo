@@ -1,0 +1,248 @@
+.page-itservice {
+    min-width: 1200px;
+    height: 100%;
+    padding-top: 65px;
+
+    .sections-wrapper {
+        min-width: 1200px;
+        position: relative;
+        min-height: calc(100vh - 400px);
+
+        .vertical-wrapper {
+            padding-top: 64px;
+            padding-bottom: 48px;
+            width: 1200px;
+
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;
+
+            h1 {
+                font-size: 48px;
+                line-height: 52px;
+                letter-spacing: -.03em;
+                margin-top: 8px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: -.03em;
+                margin-top: 24px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align-last: center
+            }
+        }
+
+        .atom-component {
+            min-height: 640px;
+            padding-bottom: 0px;
+            outline: none;
+            background-color: white;
+            padding-top: 0px;
+            padding-left: 16px;
+            padding-right: 16px;
+
+            .component {
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-image: url("../images/u99-Photoroom.png");
+
+                min-height: 640px;
+
+                .atom-design {
+                    position: relative;
+                    width: 100%;
+                    min-width: 1200px;
+                    box-sizing: border-box;
+                    overflow: hidden;
+
+                    .vertical-wrapper {
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        gap: 24px;
+
+
+                        .wrapper-h2 {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 16px;
+                            color: white;
+                            max-width: 693px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+
+                        .wrapper-h21 {
+                            animation-delay: 0.5s;
+                            font-size: 40px;
+                            line-height: 24px;
+                            font-weight: 500;
+                            color: #ffffff;
+                            text-align: center;
+                        }
+
+                        .wrapper-h22 {
+                            animation-delay: 0.1s;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: rgba(255, 255, 255, 0.65);
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .atom-component-box {
+            width: 1200px;
+            height: auto;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .component-text {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                top: 65px;
+                left: 60px;
+
+                .component-text-h3 {
+                    text-align: center;
+                    height: 140px;
+
+                    h3 {
+                        font-size: 20px;
+                        color: #1431d3;
+                    }
+
+
+                }
+
+                .component-text-p {
+                    width: 180px;
+                    word-break: break-word;
+                    /* 避免长词溢出 */
+                    white-space: normal;
+                    /* 确保可以换行 */
+                    color: #3b3e40;
+                    text-align-last: center;
+                }
+
+            }
+
+            .cn1 {
+                top: 65px;
+                left: 515px;
+            }
+
+            .cn2 {
+                top: 65px;
+                left: 967px;
+            }
+
+            .cn3 {
+                top: 520px;
+                left: 60px;
+            }
+
+            .cn4 {
+                top: 520px;
+                left: 515px;
+            }
+
+            .cn5 {
+                top: 520px;
+                left: 967px;
+            }
+
+            .component-text-txt {
+                position: absolute;
+                font-weight: 600;
+                top: 50%;
+                left: 50%;
+                color: #1431d3;
+                font-size: 38px;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .section-content {
+            .section-content {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                .divider-container {
+                    margin: 28px 0 0px 0;
+                    height: 2px;
+                    border-radius: 0px;
+                    width: 48px;
+                    background-color: rgb(65, 163, 55);
+                }
+            }
+        }
+
+        .card-container {
+            width: 1200px;
+            height: 350px;
+            background-color: #f7f9fa;
+            display: flex;
+            align-items: center; 
+            box-sizing: border-box;
+            
+            img {
+                max-width:596px;
+                height: 350px;
+                object-fit: contain;
+
+            }
+
+            .card-container>img {
+                flex: 1;
+                /* 图片占一半 */
+                max-width: 50%;
+            }
+
+            .card-container-div {
+                flex: 1;
+                /* 文字占一半 */
+                max-width: 50%;
+                padding-left: 24px;
+            }
+
+            h2 {
+                font-size: 28px;
+                /* 放大标题 */
+                margin-bottom: 12px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 1.6;
+                color: rgba(0, 0, 0, 0.75);
+            }
+        }
+
+        
+    }
+}

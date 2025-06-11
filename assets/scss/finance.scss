@@ -1,0 +1,302 @@
+.page-wrapper {
+    min-width: 1200px;
+    height: 100%;
+    padding-top: 65px;
+
+    .sections-wrapper {
+        min-width: 1200px;
+        position: relative;
+        min-height: calc(100vh - 400px);
+
+        .vertical-wrapper {
+            padding-top: 64px;
+            padding-bottom: 48px;
+            width: 1200px;
+
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;
+
+            h1 {
+                font-size: 48px;
+                line-height: 52px;
+                letter-spacing: -.03em;
+                margin-top: 8px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: -.03em;
+                margin-top: 24px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align-last: center
+            }
+        }
+
+        .atom-component {
+            min-height: 640px;
+            padding-bottom: 0px;
+            outline: none;
+            background-color: white;
+            padding-top: 0px;
+            padding-left: 16px;
+            padding-right: 16px;
+
+            .component {
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-image: url("../images/u80-Photoroom.png");
+
+                min-height: 640px;
+
+                .atom-design {
+                    position: relative;
+                    width: 100%;
+                    min-width: 1200px;
+                    box-sizing: border-box;
+                    overflow: hidden;
+
+                    .vertical-wrapper {
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        gap: 24px;
+
+
+                        .wrapper-h2 {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 16px;
+                            color: white;
+                            max-width: 693px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+
+                        .wrapper-h21 {
+                            animation-delay: 0.5s;
+                            font-size: 40px;
+                            line-height: 24px;
+                            font-weight: 500;
+                            color: #ffffff;
+                            text-align: center;
+                        }
+
+                        .wrapper-h22 {
+                            animation-delay: 0.1s;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: rgba(255, 255, 255, 0.65);
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .atom-design-v1 {
+            background-color: rgb(245, 245, 245);
+            position: relative;
+            width: 100%;
+            min-width: 1200px;
+            box-sizing: border-box;
+            overflow: hidden;
+
+            .vertical-wrapper {
+                padding-top: 64px;
+                padding-bottom: 48px;
+                width: 1200px;
+
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+
+                .vertical-card-list {
+                    align-items: center;
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: nowrap;
+
+                    flex-direction: column;
+
+                    .headline-text {
+                        font-size: 40px;
+                        color: rgba(0, 0, 0, 0.85);
+                        max-width: 794px;
+                    }
+
+                    .text-ms {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: rgba(0, 0, 0, 0.65);
+                        max-width: 794px;
+                    }
+                }
+            }
+
+            .atom-component {
+                background-color: rgb(245, 245, 245);
+                position: relative;
+                width: 100%;
+                min-width: 1200px;
+                box-sizing: border-box;
+                overflow: hidden;
+                padding-bottom: 96px;
+
+                .hero-vertical-wrapper {
+                    width: 1200px;
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    .vertical-card-list {
+                        align-items: flex-start;
+                        width: 100%;
+
+                        display: flex;
+                        flex-wrap: nowrap;
+                        gap: 16px;
+
+                        /* 可选间距 */
+                        .card-list {
+
+                            height: 612px;
+                            background-color: #ffffff;
+                            width: calc((1200px - 2 * 16px) / 3);
+                            /* 三列且包含间距 */
+                            display: flex;
+                            flex-direction: column;
+
+                            .list-img img {
+                                width: 100%;
+                                // height: auto;
+                                object-fit: cover;
+                                /* 保证图像完整显示 */
+                                display: block;
+                            }
+
+                            .text-content-container {
+                                padding: 16px;
+                                text-align: left;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .atom-component-v1 {
+            background-color: rgb(247, 249, 250);
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+
+            .atom-design-v1 {
+                width: 1200px;
+                height: auto;
+                padding-top: 64px;
+                padding-bottom: 48px;
+                background-color: rgb(247, 249, 250);
+
+                .headline-text {
+                    display: block;
+                    max-width: 693px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    font-size: 40px;
+                    line-height: 48px;
+                    letter-spacing: -.03em;
+                    margin-top: 8px;
+                    text-align: center;
+                }
+            }
+
+            .section-content {
+                background-color: rgb(247, 249, 250);
+                position: relative;
+                width: 100%;
+                min-width: 1200px;
+                overflow: hidden;
+
+                .hero-horizontal-wrapper {
+                    display: flex;
+                    flex-wrap: wrap; // 允许换行
+                    gap: 24px; // 每列间距
+                    width: 1200px;
+                    margin: 0 auto;
+                    padding-bottom: 16px;
+
+                    .horizontal-card-list {
+                        display: flex;
+                        width: calc(50% - 12px); // 两列平分，扣除间距
+                        background-color: #fff; // 可选：背景色
+                        align-items: flex-start;
+
+                        .card-container {
+                            width: 288px;
+                            flex-shrink: 0;
+
+                            .card-container img {
+                                width: 100%;
+                                height: auto;
+                                display: block;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .card-text {
+                            padding-left: 50px;
+                            padding-right: 20px;
+                            flex: 1;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        .introduce-box{
+            background-color: #f7f9fa;
+        }
+
+        #introduce {
+            .card-list {
+                .list-li {
+                    transform: translateY(30px);
+                    opacity: 1;
+                    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+                }
+            }
+        }
+
+    }
+}

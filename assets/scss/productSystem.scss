@@ -1,0 +1,338 @@
+.page-product-system {
+    position: relative;
+    background-color: #f7f9fa;
+    margin-bottom: 36px;
+
+    .tmpl-banner {
+        background-image: url("../images/u301-Photoroom.png");
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #494b4d;
+
+        .grid-container {
+            width: 1200px;
+            margin: 0 auto;
+
+            .content-p {
+                color: #fff;
+            }
+        }
+
+        .text {
+            height: 400px;
+            display: flex;
+            -moz-flex-direction: column;
+            flex-direction: column;
+            -moz-justify-content: center;
+            justify-content: center;
+            color: #fff;
+            padding: 64px;
+        }
+    }
+
+    .vertical-wrapper {
+        padding-top: 64px;
+        padding-bottom: 48px;
+        width: 1200px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+
+        h1 {
+            font-size: 48px;
+            line-height: 52px;
+            letter-spacing: -0.03em;
+            margin-top: 8px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: -0.03em;
+            margin-top: 24px;
+            margin-left: auto;
+            margin-right: auto;
+            -moz-text-align-last: center;
+            text-align-last: center;
+        }
+    }
+
+    .tmpl-section {
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+
+    .is-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .cell {
+        box-sizing: border-box;
+        flex-shrink: 0;
+        padding: 0 10px;
+    }
+
+    .tmpl-products {
+        .section-product-item-one {
+            margin-bottom: 20px;
+        }
+    }
+
+    .product-item {
+        display: flex;
+        height: 480px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .product-item {
+        background: #fff;
+        transition: all .3s ease;
+        cursor: pointer;
+    }
+
+    .section-content {
+        flex-basis: 50%;
+        max-width: 40%;
+        padding: 64px;
+    }
+
+    .section-content {
+        display: flex;
+        -moz-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .text {
+        -moz-flex: 1;
+        flex: 1;
+        -moz-justify-content: center;
+        justify-content: center;
+    }
+
+    .text {
+        display: flex;
+        -moz-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 22px;
+        font-weight: bold;
+        height: 40px;
+        margin-bottom: 16px;
+        display: flex;
+        -moz-align-items: center;
+        align-items: center;
+
+        img {
+            height: 28px;
+            display: block;
+        }
+    }
+
+    .content {
+        color: #303233;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .dui-learn-more {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 46px;
+        height: 46px;
+        color: #303233;
+        cursor: pointer;
+    }
+
+    a {
+        vertical-align: baseline;
+        text-decoration: none;
+    }
+
+    .section-figure {
+        flex-basis: 50%;
+        max-width: 50%;
+        padding: 0;
+
+
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .card {
+        flex: 1;
+        background-color: #262626;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+
+    .card h3 {
+        margin: 0 0 10px;
+        font-size: 1.5rem;
+        color: #ffffff;
+    }
+
+    .card p {
+        margin: 0;
+        font-size: 1rem;
+        color: #ffffff;
+        line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .container-a {
+        max-width: 1200px;
+        /* 外层最大宽度 */
+        margin: 0 auto;
+        /* 居中 */
+        display: flex;
+        /* 使用 Flexbox 实现并排布局 */
+        justify-content: space-between;
+        /* 均匀分布 */
+        gap: 20px;
+        /* 卡片间距 */
+        padding-top: 20px;
+        /* 容器内边距 */
+    }
+
+    .card-a {
+        flex: 1;
+        /* 均分空间 */
+        height: 490px;
+        /* 固定高度，适应图片和文字 */
+        background-size: contain;
+        /* 图片完整显示 */
+        background-position: top center;
+        /* 图片位于顶部 */
+        background-repeat: no-repeat;
+        /* 不重复 */
+        display: flex;
+        /* 使用 Flexbox 控制内部文字 */
+        flex-direction: column;
+        /* 垂直排列 */
+        justify-content: flex-end;
+        /* 文字靠底部 */
+        padding: 20px;
+        /* 卡片内边距 */
+        background-color: #f9f9f9;
+        /* 背景色，防止图片未加载时空白 */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* 阴影 */
+    }
+
+    .text-content-a {
+        background-color: rgba(255, 255, 255, 0.8);
+        /* 文字背景，增强可读性 */
+        padding: 10px;
+        /* 文字区域内边距 */
+        border-radius: 4px;
+        /* 文字区域圆角 */
+    }
+
+    .card-a h3 {
+        margin: 0 0 10px;
+        /* 标题下边距 */
+        font-size: 1.5rem;
+        /* 标题字体大小 */
+        color: #333;
+        /* 标题颜色 */
+        text-align: center;
+        /* 标题居中 */
+    }
+
+    .card-a p {
+        margin: 0;
+        /* 移除段落默认边距 */
+        font-size: 1rem;
+        /* 段落字体大小 */
+        color: #666;
+        /* 段落颜色 */
+        line-height: 1.5;
+        /* 行高 */
+        text-align: center;
+        /* 段落居中 */
+    }
+  
+    .container-b {
+        max-width: 1200px;
+        /* 外层最大宽度 */
+        margin: 0 auto;
+        /* 居中 */
+        display: flex;
+        /* 使用 Flexbox 实现并排布局 */
+        justify-content: space-between;
+        /* 卡片均匀分布 */
+
+    }
+
+    .card-b {
+        flex: 1;
+        /* 均分空间 */
+        background-color: #f9f9f9;
+        /* 浅灰背景 */
+        padding: 20px;
+        /* 内边距 */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* 轻微阴影 */
+        display: flex;
+        /* 内部使用 Flexbox */
+        flex-direction: column;
+        /* 垂直排列 */
+        text-align: center;
+        /* 文本水平居中 */
+    }
+
+    .card-b h3 {
+        margin: 0 0 10px;
+        /* 标题下边距 */
+        font-size: 1.5rem;
+        /* 标题字体大小 */
+        color: #333;
+        /* 标题颜色 */
+    }
+
+    .card-b p {
+        margin: 0;
+        /* 移除段落默认边距 */
+        font-size: 1rem;
+        /* 段落字体大小 */
+        color: #666;
+        /* 段落颜色 */
+        line-height: 1.5;
+        /* 行高，提升可读性 */
+    }
+}

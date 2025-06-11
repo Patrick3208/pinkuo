@@ -1,0 +1,186 @@
+.page-product-customer-system {
+    position: relative;
+    background-color: #f7f9fa;
+    margin-bottom: 36px;
+
+    .tmpl-banner {
+        background-image: url("../images/u304-Photoroom.png");
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #494b4d;
+        background-position: 0 60px;
+
+        .grid-container {
+            width: 1200px;
+            margin: 0 auto;
+
+            .content-p {
+                color: #fff;
+            }
+        }
+
+        .text {
+            height: 400px;
+            display: flex;
+            -moz-flex-direction: column;
+            flex-direction: column;
+            -moz-justify-content: center;
+            justify-content: center;
+            color: #fff;
+            padding: 64px;
+        }
+    }
+
+    .vertical-wrapper {
+        padding-top: 64px;
+        padding-bottom: 48px;
+        width: 1200px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+
+        h1 {
+            font-size: 48px;
+            line-height: 52px;
+            letter-spacing: -0.03em;
+            margin-top: 8px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: -0.03em;
+            margin-top: 24px;
+            margin-left: auto;
+            margin-right: auto;
+            -moz-text-align-last: center;
+            text-align-last: center;
+        }
+    }
+
+    .produt-imgbox {
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+
+        .items-container {
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            min-height: 200px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .item .title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ececec;
+            margin-bottom: 8px;
+        }
+
+        .item .subtitle {
+            font-size: 1rem;
+            color: #ececec;
+            line-height: 1.4;
+        }
+    }
+
+    .section-contentbox {
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .items-container {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        gap: 40px;
+        min-height: 640px;
+        padding: 20px;
+
+    }
+
+    .left-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 80px;
+        border-radius: 8px;
+    }
+
+    .left-content h1 {
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: #ececec;
+        line-height: 1.3;
+        margin: 0 0 20px;
+        text-align: left;
+    }
+
+    .left-content h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #ececec;
+        line-height: 1.4;
+        margin: 0;
+        text-align: left;
+    }
+
+    .right-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+
+    }
+
+    .metric {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .metric span {
+        font-size: 1.2rem;
+        color: #fffffb;
+        margin-bottom: 10px;
+    }
+
+    .metric h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fffffb;
+        margin: 0;
+    }
+
+
+}

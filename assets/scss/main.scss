@@ -1,0 +1,131 @@
+// assets/scss/main.scss
+@use "./variables" as *;
+@use "./about" as *;
+@use "./header" as *;
+@use "./index" as *;
+@use "./footer" as *;
+@use "./finance" as *;
+@use "./itsever.scss" as *;
+@use "./product.scss" as *;
+@use "./customer.scss" as *;
+@use "./contactus.scss" as *;
+@use "./productSystem.scss" as *;
+@use "./productAi.scss" as *;
+@use "./productCustomerSystem.scss" as *;
+
+@font-face {
+  font-family: "Tagesschrift-Regular";
+  src: url("/fonts/Tagesschrift-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.box-font-style {
+  font-family: "Tagesschrift-Regular", sans-serif;
+}
+
+// 用来测scss的字体变量的
+// body {
+//   font-family: $font-stack;
+//   background-color: #f400f0;
+// }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+  font-family: Open Sans, PingFang SC, Microsoft YaHei, Helvetica Neue,
+    Hiragino Sans GB, WenQuanYi Micro Hei, Arial, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+#__nuxt,
+body,
+html {
+  height: 100%;
+  font-size: 14px;
+  color: #3b3e40;
+  font-family: Open Sans, PingFang SC, Microsoft YaHei, Helvetica Neue,
+    Hiragino Sans GB, WenQuanYi Micro Hei, Arial, sans-serif;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+span {
+  display: block;
+}
+
+[data-v-5357e832] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+nav,
+section {
+  display: block;
+}
+
+a {
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+a,
+td,
+th {
+  font-size: 100%;
+}
+a,
+small,
+strong,
+sub,
+sup,
+table,
+td,
+th {
+  margin: 0;
+  padding: 0;
+  background: 0 0;
+}
+
+ul {
+  list-style: none;
+}
