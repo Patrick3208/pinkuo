@@ -73,3 +73,16 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## 运行截图
+![项目首页中文截图1](screenshot/screenshot1.png)
+![中文截图2](screenshot/screenshot12.png)
+![中文截图3](screenshot/screenshot13.png)
+![中文截图4](screenshot/screenshot14.png)
+![中文截图5](screenshot/screenshot15.png)
+
+![项目首页英文截图1](screenshot/screenshot2.png)
+![英文截图2](screenshot/screenshot22.png)
+![英文截图3](screenshot/screenshot23.png)
+![英文截图4](screenshot/screenshot24.png)
+![英文截图5](screenshot/screenshot25.png)
